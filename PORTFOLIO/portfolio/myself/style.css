@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Fira+Code&family=Fuggles&family=Montserrat:ital,wght@1,600&family=Mooli&family=Ubuntu:ital,wght@1,500&display=swap');@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Fira+Code&family=Fuggles&family=Montserrat:wght@200&family=Mooli&family=Ubuntu:ital,wght@1,500&display=swap');
+body {
+    margin: 0;
+    background-color: rgb(16, 15, 15);
+    color: rgb(251, 250, 250);
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(206, 246, 7);
+}
+.navbar-left {
+    padding-left: 50px;
+}
+
+.navbar-right {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.a-element {
+    padding: 10px;
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+}
+.home-left {
+    width: 50vw;
+    text-align: center;
+    padding-left: 200px;
+}
+
+img{
+    max-width: 300px;
+    max-height: 400px;
+}
+
+.home-right {
+    width: 50vw;
+    padding-left: 100px;
+}
+
+.home-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.home-p {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+
+.resume {
+    text-align: center;
+    background-color: rgb(248, 10, 145);
+    padding: 80px;
+    font-size: 50px;
+    font-style: inherit;
+    border: #f40606;
+    border-radius: rgb(3, 255, 3);
+    letter-spacing: 2px;
+    color: orange;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.resume:hover {
+    background-color: coral;
+}
+
+.a {
+    padding: 50px;
+    background-color: crimson;
+    text-align: right;
+    border: rgb(254, 6, 197) 1px solid;
+    border-radius: 35px;
+    letter-spacing: 2px;
+    color: #f40606;
+    position: absolute;
+    margin: 10% 35%;
+}
+
+a:hover {
+    background-color: rgb(9, 249, 249);
+}
+
+.education {
+    padding: 50px;
+    text-align: center;
+}
+
+.education-sub-cont {
+     display: flex;
+     flex-direction: row;
+}
+
+.education-card {
+    border: 2px #05ff33 solid;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+}
+
+.skills {
+    padding: 50px;
+    text-align: center;
+}
+.ser-h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(59, 211, 59);
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+}
+.skills-sub-cont {
+    display: flex;
+    flex-direction: row;
+
+}
+.skills-card {
+    border: 2px rgb(6, 249, 6) solid;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+}
+.sc-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.sc-p {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+.contact {
+    text-align: center;
+}
+.contact-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.test-logo {
+    height: 50px;
+}
+.social-icon-img {
+    height: 50px;
+    padding: 20px;
+}
